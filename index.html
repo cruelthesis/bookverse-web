@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookverse</title>
+  <link rel="stylesheet" href="./resource/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./resource/bootstrap/css/style.css">
+</head>
+
+<body>
+
+  <section>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+      <div class="container">
+        <a class="navbar-brand" href="#">Bookverse</a>
+        <div class="box">
+          <input type="text" style="padding: 10px;" placeholder="Search here">
+          <button class="btn-search">Search</button>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Best Seller</a></li>
+                <li><a class="dropdown-item" href="#">Weekly Discount</a></li>
+                <li><a class="dropdown-item" href="#">New Released</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">See All</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section>
+    <div class="">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <ol>
+            <li href="#carousel" data-slide-to="0" class="active"></li>
+            <li href="#carousel" data-slide-to="1" class=""></li>
+          </ol>
+          <div class="carousel-item active">
+            <img src="/resource/gambar/bookverse-desktop_02.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/resource/gambar/bookverse-desktop_02.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/resource/gambar/bookverse-desktop_02.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container my-5">
+      <div class="top">
+        <div class="title">
+          <h2>Weekly Discount</h2>
+        </div>
+        <a href="#" class="text-decoration-none">See all</a>
+      </div>
+      <div class="row mt-4">
+        <div class="col-6 col-md-3 mb-3">
+          <div class="card card-product">
+            <img src="./resource/gambar/bookverse-desktop_05.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="text-muted">Author Name</h6>
+              <h4>MoonLocket</h4>
+              <h5 class="text-muted"><s>$20</s></h5>
+              <h3 style="color: #e43b77;">$17</h3>
+              <button href="#" class="btn btn-buy float-end mb-4">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="card card-product ">
+            <img src="./resource/gambar/bookverse-desktop_10.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="text-muted">Author Name</h6>
+              <h4>The Antidote</h4>
+              <h5 class="text-muted"><s>$12</s></h5>
+              <h3 style="color: #e43b77;">$9</h3>
+              <button href="#" class="btn btn-buy float-end mb-4">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="card card-product ">
+            <img src="./resource/gambar/bookverse-desktop_07.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="text-muted">Author Name</h6>
+              <h4>Arabian Nights</h4>
+              <h5 class="text-muted"><s>$12</s></h5>
+              <h3 style="color: #e43b77;">$9</h3>
+              <button href="#" class="btn btn-buy float-end mb-4">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="card card-product">
+            <img src="./resource/gambar/bookverse-desktop_12.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="text-muted">Author Name</h6>
+              <h4>The Gracias</h4>
+              <h5 class="text-muted"><s>$15</s></h5>
+              <h3 style="color: #e43b77;">$11</h3>
+              <button href="#" class="btn btn-buy float-end mb-4">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container my-5">
+      <div class="top">
+        <div class="title">
+          <h2>Popular</h2>
+        </div>
+        <a href="#" class="text-decoration-none">See all</a>
+      </div>
+      <div class="row mt-4">
+        <div class="col-6 col-md-3 mb-3">
+          <div class="card card-product-popular">
+            <img src="./resource/gambar/bookverse-desktop_18.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="text-muted">Author Name</h6>
+              <h4>Jujutsu Kaisen #14</h4>
+
+              <h3 style="color: #e43b77;">$16</h3>
+              <button href="#" class="btn btn-buy float-end mb-3">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="card card-product-popular ">
+            <img src="./resource/gambar/bookverse-desktop_20.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="text-muted">Author Name</h6>
+              <h4>Sakamoto Days #10</h4>
+
+              <h3 style="color: #e43b77;">$17.5</h3>
+              <button href="#" class="btn btn-buy float-end mb-3">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="card card-product-popular ">
+            <img src="./resource/gambar/bookverse-desktop_21.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="text-muted">Author Name</h6>
+              <h4>Harry Potter</h4>
+
+              <h3 style="color: #e43b77;">$25</h3>
+              <button href="#" class="btn btn-buy float-end mb-3">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3">
+          <div class="card card-product-popular ">
+            <img src="./resource/gambar/bookverse-desktop_24.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="text-muted">Author Name</h6>
+              <h4>Sherlock Holmes</h4>
+
+              <h3 style="color: #e43b77;">$18.3</h3>
+              <button href="#" class="btn btn-buy float-end mb-3">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <img src="./resource/gambar/bookverse-desktop_30.png" class="w-100 d-block" alt="">
+    </div>
+  </section>
+
+  <section>
+    <div class="container my-5">
+      <div class="top">
+        <div class="title">
+          <h2>Our Blog</h2>
+        </div>
+        <a href="#" class="text-decoration-none">See all</a>
+      </div>
+      <div class="row mt-4 d-flex justify-content-around flex-wrap">
+        <div class="col-md-6 col">
+          <div class="card card-blog mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./resource/gambar/bookverse-desktop_34.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h6 class="card-title-category mt-1">CATEGORY</h6>
+                  <h3 class="card-title">HEADLINE #1</h3>
+                  <p class="card-title"><small class="text-muted ">11 FEBRUARY 2023</small></p>
+                  <p class="card-text mb-0">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <button href="" class="btn btn-reading mt-2">CONTINUE READING</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col">
+          <div class="card card-blog mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="./resource/gambar/bookverse-desktop_36.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h6 class="card-title-category mt-1">CATEGORY</h6>
+                  <h3 class="card-title">HEADLINE #2</h3>
+                  <p class="card-title"><small class="text-muted ">11 FEBRUARY 2023</small></p>
+                  <p class="card-text mb-0">This is a wider card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                  <button href="" class="btn btn-reading mt-2">CONTINUE READING</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+
+  </section>
+
+
+  <section>
+    <footer class="footer-top ">
+      <div class="container">
+        <div class="row d-flex justify-content-around flex-wrap">
+          <div class="col-md-6">
+            <h2 class="">Receive Our New Update</h2>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12 d-flex">
+                <input style="border-radius: 20px;" type="email" class="form-control" placeholder="Email Address" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <button class="btn-send mx-3">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <section>
+    <footer class="footer-akhir">
+      <!-- Grid container -->
+      <div class="container py-5">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-center link-subjudul">Products</h5>
+    
+            <ul class="list-unstyled mb-0 link-footer">
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <div class="col col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-center link-subjudul">Shopping</h5>
+    
+            <ul class="list-unstyled mb-0 link-footer">
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-center link-subjudul">About Bookverse</h5>
+    
+            <ul class="list-unstyled mb-0 link-footer">
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class=" col col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-center link-subjudul">Others</h5>
+    
+            <ul class="list-unstyled mb-0 link-footer">
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+              <li>
+                <a href="#!" class="">Lorem ipsum dolor sit amet</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+    
+    </footer>
+    <footer>
+      <div class="text-center p-3" style="color: #e43b77; box-shadow:0px 0px 30px -1px rgba(0, 0, 0, 0.1)">
+        © 2023 Bookverse
+      </div>
+    </footer>
+  </section>
+
+  <script src="./resource/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
